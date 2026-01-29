@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Intramurals</title>
+</head>
+<body>
+<h1>Intramurals Team Checker</h1>
+    <form>
+        <label for="reg">Are you done with the online registration?</label>
+    <br>
+        <input type="text" id="reg"><br>
+    <br>
+        <label for="cert">Do you have the medical clearance from the clinic?</label>
+    <br>
+        <input type="text" id="cert"><br>
+    </form>
+    </br>
+		<label for="grade">What is your grade and section?</label>
+        <br>
+        <select name="grade" id="grade">
+            <option value="" selected="selected">Select grade</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <select name="section" id="section">
+            <option value="" selected="selected">Select section</option>
+            <option value="eme">Emerald</option>
+            <option value="ruby">Ruby</option>
+            <option value="sapph">Sapphire</option>
+            <option value="top">Topaz</option>
+        </select>
+</br>
+</br>
+        <input type="button" py-click="team_identity" value="Sign up">
+    </form>
+    <div id="result"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
