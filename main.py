@@ -105,7 +105,7 @@ def team_identity(e):
         display(f'Not eligible', target='result')
 
     elif reg == "Yes" and cert == "Yes" and grade == "7" and section == "sapph":
-        display(f'Congrats, you are yellow tigers', target='result')
+        display(f'Congrats, you are green hornets', target='result')
 
     elif reg == "Yes" and cert == "No" and grade == "7" and section == "sapph":
         display(f'Needs medical certificate', target='result')
@@ -116,6 +116,91 @@ def team_identity(e):
     elif reg == "No" and cert == "No" and grade == "7" and section == "sapph":
         display(f'Not eligible', target='result')
 
+    elif reg == "Yes" and cert == "Yes" and grade == "8" and section == "sapph":
+        display(f'Congrats, you are yellow tigers', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "8" and section == "sapph":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "8" and section == "sapph":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "8" and section == "sapph":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "9" and section == "sapph":
+        display(f'Congrats, you are  green hornets', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "9" and section == "sapph":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "9" and section == "sapph":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "9" and section == "sapph":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "10" and section == "sapph":
+        display(f'Congrats, you are green hornets', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "10" and section == "sapph":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "10" and section == "sapph":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "10" and section == "sapph":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "7" and section == "top":
+        display(f'Congrats, you are yellow tigers', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "7" and section == "top":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "7" and section == "top":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "7" and section == "top":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "8" and section == "top":
+        display(f'Congrats, you are green hornets', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "8" and section == "top":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "8" and section == "top":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "8" and section == "top":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "9" and section == "top":
+        display(f'Congrats, you are yellow tigers', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "9" and section == "top":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "9" and section == "top":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "9" and section == "top":
+        display(f'Not eligible', target='result')
+
+    elif reg == "Yes" and cert == "Yes" and grade == "10" and section == "top":
+        display(f'Congrats, you are gred bulldogs', target='result')
+
+    elif reg == "Yes" and cert == "No" and grade == "10" and section == "top":
+        display(f'Needs medical certificate', target='result')
+
+    elif reg == "No" and cert == "Yes" and grade == "10" and section == "top":
+        display(f'Please register online', target='result')
+
+    elif reg == "No" and cert == "No" and grade == "10" and section == "top":
+        display(f'Not eligible', target='result')
+    
     else:
         display(f'invalid', target='result')
+
         
